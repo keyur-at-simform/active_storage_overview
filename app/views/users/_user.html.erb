@@ -28,7 +28,7 @@
       <% elsif image.previewable? %>  
         <%= link_to image_tag(image.preview(resize: "400x400")), rails_blob_path(image, disposition: :attachment) %>
       <% else %>
-        <%= link_to image.filename, rails_blob_path(image, disposition: :attachment) %>
+        <%= video_tag url_for(image), controls: true%>
       <% end %>
     <% end %>
   </p>
