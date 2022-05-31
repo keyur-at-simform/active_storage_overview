@@ -52,7 +52,6 @@ gem "image_magick"
 gem "mini_magick"
 gem "ffmpeg"
 gem "image_processing", ">= 1.2"
-gem 'gobject-introspection'
 
 
 group :development, :test do
