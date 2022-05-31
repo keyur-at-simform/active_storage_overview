@@ -255,6 +255,7 @@ DEPENDENCIES
   capybara
   debug
   ffmpeg
+  gobject-introspection (~> 3.4, >= 3.4.3)
   image_magick
   image_processing (>= 1.2)
   importmap-rails

@@ -53,6 +53,7 @@ gem "mini_magick"
 gem "ffmpeg"
 gem "poppler"
 gem "image_processing", ">= 1.2"
+gem 'gobject-introspection', '~> 3.4', '>= 3.4.3'
 
 
 group :development, :test do
