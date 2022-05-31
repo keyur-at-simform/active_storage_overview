@@ -51,7 +51,6 @@ gem "bootsnap", require: false
 gem "image_magick"
 gem "mini_magick"
 gem "ffmpeg"
-gem "poppler"
 gem "image_processing", ">= 1.2"
 gem 'gobject-introspection'
 
